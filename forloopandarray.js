@@ -7,13 +7,13 @@ let bits = [1,1,0,1,0,0,1,0,0,1];
 
 function example1(){
 let suboz = [];
-  for(let z = 0; z < oz.length; z++){
+  for(let z=0; z<oz.length; z++){
 
     if(oz[z]<=20){
       suboz.push(oz[z]);
     }
   }
-    return oz;
+    return suboz;
 }
 
 function example2(){
@@ -26,7 +26,12 @@ function example2(){
 }
 
 function example3(){
-
+  let average=0
+  for(let a=0; a<pings.length; a++){
+      average = average+pings[a];
+  }
+    average= average/pings.length
+    return average;
 }
 
 function example4(){
